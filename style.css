@@ -47,9 +47,14 @@
     border: 1px solid #008000;
 }
 
+.nav-link{
+    color: white;
+}
+
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
+    color: white;
 }
 
 /* social media icons styling */
