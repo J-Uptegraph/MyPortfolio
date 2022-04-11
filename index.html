@@ -13,8 +13,7 @@
   <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<!-- load javascript after loading all html content -->
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    <nav class= "navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">JU Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,10 +37,11 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
+                
             </div>
         </div>
     </nav>
- <script src="scripts/script.js"></script>
+
 <!-- main banner -->
     <section class="bgimage" id="home">
         <div class="container-fluid">
@@ -95,8 +95,6 @@
                 </div>
             </div>
     </section>
-
-<!-- services section-->
 
 <!-- services section-->
     <section id="services">
@@ -183,6 +181,7 @@
     <section id="portfolio">
         <div class="container mt-3">
             <h1 class="text-center">Portfolio</h1>
+            <!-- First Row Starts Here -->
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
@@ -223,7 +222,9 @@
                     </div>
                 </div>
             </div>
+            <!-- First Row Ends Here -->
             <br>
+            <!-- Second Row Starts Here  -->
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
@@ -264,6 +265,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Second Row Ends Here -->
     </section>
 
     <!-- contact section-->
@@ -272,8 +274,6 @@
             <h1 class="text-center">Contact Me</h1>
 
             <div class="row mt-4">
-                <div class="col-lg-6">
-                    <!-- form fields -->
                     <form>
                         <input type="text" class="form-control form-control-lg" placeholder="Name">
                         <input type="email" class="form-control mt-3" placeholder="Email">
@@ -283,14 +283,6 @@
                         </div>
                     </form>
                     <button type="button" class="btn btn-success mt-3">Contact Me</button>
-                    
-                </div>
-                <div class="col-lg-6">
-                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
-                        <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:400px;"><div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=4575+Hickory+Rock+Drive&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="codefor-google-map" rel="nofollow" href="https://dedicatedhosting.pro" id="grabmap-info">dedicatedhosting.pro</a><style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -304,9 +296,11 @@
                 <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </footer>
+
+    <script src = "scripts/script.js"> </script>
 </body>
 </html>
