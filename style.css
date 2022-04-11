@@ -1,9 +1,10 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('media/images/bgimage.jpg');
+    background: url('media/images/bgimageCanyon.jpg');
     background-size:cover;
     position:relative;
+
 }
 /* text css above hero image*/
 .hero_title {
@@ -61,7 +62,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
     color: #008000;
 }
 .fab {
@@ -76,7 +77,7 @@
 /* spacing on all sections */
 #about, #services, #portfolio, #contact {
     margin-top: 4rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 #contact {
     padding-bottom: 4rem;
