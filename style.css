@@ -41,10 +41,10 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000;
+    color: #ef5600;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #ef5600;
 }
 
 .nav-link{
@@ -77,7 +77,7 @@
 /* spacing on all sections */
 #about, #services, #portfolio, #contact {
     margin-top: 4rem;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 #contact {
     padding-bottom: 4rem;
