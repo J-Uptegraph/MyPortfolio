@@ -41,10 +41,10 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #ef5600;
+    color: #198754;
 }
 .servicesText:hover {
-    border: 1px solid #ef5600;
+    border: 1px solid #198754;
 }
 
 .nav-link{
@@ -57,7 +57,7 @@
     background-color: black;
 }
 .btn {
-    background-color: #ef5600
+    background-color: #198754
 }
 
 /* social media icons styling */
@@ -66,7 +66,7 @@
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
-    color: #ef5600;
+    color: #198754;
 }
 .fab {
     color: #ffff;
