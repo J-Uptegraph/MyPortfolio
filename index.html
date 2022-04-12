@@ -423,15 +423,18 @@
             <h1 class="text-center">Contact Me</h1>
 
             <div class="row mt-4">
-                    <form>
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input type="email" class="form-control mt-3" placeholder="Email">
-                        <input type="text" class="form-control mt-3" placeholder="Subject">
-                        <div class="mb-3 mt-3">
-                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Write a Message"></textarea>
-                        </div>
-                    </form>
-                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+
+                <p>Send an E-mail</p>
+                <form class="contact-form" action="contactform.php" method="post">
+                    <input type = "text" name="name" placeholder="Full Name">
+                    <input type = "text" name="mail" placeholder="Your E-mail">
+                    <input type = "text" name="subject" placeholder="Subject">
+                    <textarea name ="message" placeholder="Enter your Message"></textarea>
+                    <button type="submit" class="submit">SEND</button>
+                </form>
+
+                <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                   
             </div>
         </div>
     </section>
