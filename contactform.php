@@ -6,9 +6,9 @@
         $mailFrom = $_POST['mail'];
         $message = $_POST['message'];
 
-        $mailTo = "contactmejuportfolio@gmail.com";
+        $mailTo = "contact@juportfolio.com";
         $headers = "From: ".$mailFrom;
-        $txt = "You have recieved an e-mail from ".$name."\n\n".$message;
+        $txt = "You have recieved an e-mail from ".$name.".\n\n".$message;
 
         mail($mailTo, $subject, $txt, $headers);
         header("Location: index.php?mailsend");
