@@ -464,18 +464,16 @@
                 <h1 class="text-center">Contact Me</h1>
                     <h5><b>The "Contact Me" portion of this site is currently down due to issues with the PHP script.</b> It will resume function by Thursday April 14th. If you need to contact me before then, please email me at <i>contactmejuportfolio@gmail.com</i>, thank you!</h5>
                         <!-- form fields -->
-                        <form>
-                            <input type="text" class="form-control form-control-lg" placeholder="Name">
-                            <input type="email" class="form-control mt-3" placeholder="Email">
-                            <input type="text" class="form-control mt-3" placeholder="Subject">
-                            <div class="mb-3 mt-3">
-                                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                            </div>
-                        </form>
-                        <button type="button" class="btn btn-success mt-3">Contact Me</button>
-                        
+                        <section id="contact">
+                            <form action="https://formsubmit.co/contactmejuportfolio@gmail.com" method="POST">
+                                <input type="hidden" name="_subject" value="JUPorfolio Contact Us">
+                                <input type="email" name="email" placeholder="Your E-mail Address" required>
+                                <input type="hidden" name="_next" value="https://juportfolio.com/MyPortfolio/thankyou.html">
+                                <textarea type="text" name="name" placeholder="Write your Message Here"></textarea>
+                                <button type="submit" class="btn btn-success mt-3">Send</button>
+                            </form>
+                        </section>
                     </div>
-
                 </div>
             </div>
         </section>
