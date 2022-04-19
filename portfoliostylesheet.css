@@ -79,34 +79,16 @@
 
 /* spacing on all sections */
 #about, #services, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
 }
 #contact {
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
-input, textarea{
-  width: 500px; 
-  border: none;
-  border-radius: 20px;
-  outline: none;
-  padding: 10px;
-  font-family: 'Sniglet', cursive;
-  font-size: 1em;
-  color: #676767;
-  transition: border 0.5s;
-  -webkit-transition: border 0.5s;
-  -moz-transition: border 0.5s;
-  -o-transition: border 0.5s;
-  border: solid 3px #198754;  
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
-}
 
 input[type="text"]{
-  height: 100px;  
+  height: 400px;  
   resize: none; 
   overflow: auto;
 }
@@ -114,21 +96,22 @@ input[type="text"]{
 form{
   margin: 0 auto;
   width: 500px;
-  padding-top: 40px;
+  padding-bottom: 10px;
   color: white;
   position: relative;
   
 }
 
 button[type="submit"]:hover{
-  background-color: #198754;
-  
+  background-color: #1b6441;
 }
+
 label{
   font-size: 1.5em;
   margin-top: 20px;
   padding-left: 20px;
 }
+
 .formgroup, .formgroup-active, .formgroup-error{
   background-repeat: no-repeat;
   background-position: right bottom;
