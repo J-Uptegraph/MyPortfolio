@@ -78,48 +78,43 @@
 }
 
 /* spacing on all sections */
-#about, #services, #portfolio, #contact {
-    margin-top: 3rem;
-    padding-top: 2rem;
-}
-#contact {
-    padding-bottom: 3rem;
+#about, #services, #portfolio {
+    margin-top: 4rem;
+    padding-top: 4rem;
 }
 
+#contact {
+    margin-top: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background-color: whitesmoke;
+}
 
 input[type="text"]{
-  height: 400px;  
+  height: 300px;  
   resize: none; 
   overflow: auto;
 }
 
 form{
   margin: 0 auto;
-  width: 500px;
+  width: 340px;
   padding-bottom: 10px;
   color: white;
   position: relative;
-  
 }
 
 button[type="submit"]:hover{
-  background-color: #1b6441;
+  background-color: #177e4e;
+  width: 340px;
+}
+
+button[type="submit"]{
+    width: 340px;
 }
 
 label{
   font-size: 1.5em;
   margin-top: 20px;
   padding-left: 20px;
-}
-
-.formgroup, .formgroup-active, .formgroup-error{
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 10.5%;
-  transition: background-image 0.7s;
-  -webkit-transition: background-image 0.7s;
-  -moz-transition: background-image 0.7s;
-  -o-transition: background-image 0.7s;
-  width: 566px;
-  padding-top: 2px;
 }
