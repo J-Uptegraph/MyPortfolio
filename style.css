@@ -88,7 +88,15 @@
     margin-top: 5rem;
     padding-top: 4rem;
     padding-bottom: 2rem;
-    background-color: whitesmoke;
+    background-color: rgb(236, 236, 236);
+}
+
+#role{
+    margin-top: 4rem;
+    padding: 1rem;
+    border-width: 3px;
+    border-color: #7ca5e371;
+    border-style: solid;
 }
 
 input[type="text"]{
