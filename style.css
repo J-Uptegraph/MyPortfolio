@@ -2,7 +2,7 @@
 
 .bgimage {
     height:100vh;
-    background: url('media/images/bgimage.jpg');
+    background: url('media/images/bgimage.webp');
     background-size:cover;
     position:relative;
 
@@ -92,13 +92,11 @@
 }
 
 #role{
-    margin-top: 4rem;
     padding: 1rem;
     border-width: 3px;
     border-color: #7ca5e371;
     border-style: solid;
 }
-
 
 input[type="text"]{
   height: 300px;  
