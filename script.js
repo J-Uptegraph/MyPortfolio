@@ -66,17 +66,17 @@ var modalInfo = {
     link: "#",
     github: "https://github.com/J-Uptegraph/SDSmartCup",
     skills: ["3D Printing", "Prototyping"],
-    imgSource: "https://juportfolio.com/media/img/SD_Prototype.webp"
+    imgSource: "/media/img/SD_Prototype.webp"
   },
   2: {
     title: "Art Gallery Artificial Assistant",
     info:
       "I was part of a team that worked on the development of an AI-powered assistant for a Miami art gallery. The assistant was designed to help visitors navigate the gallery and provide information about the exhibitions, artists, and artworks. I was involved in the design, development, and implementation of the AI algorithms, including natural language processing and computer vision.",
-    link: "https://juportfolio.com/media/papers/MME375%20Final%20Report.pdf",
+    link: "/media/papers/MME375%20Final%20Report.pdf",
     github: "#",
     skills: [
       "Artificial Intelligence","Natural Language Processing","Computer Vision"],
-    imgSource: "https://juportfolio.com/media/img/pepper.webp"
+    imgSource: "/media/img/pepper.webp"
   },
   3: {
     title: "GPS with Dijkstra's Algorithm",
@@ -85,17 +85,17 @@ var modalInfo = {
     link: "#",
     github: "#",
     skills: ["Algorithms", "Java", "GPS Navigation"],
-    imgSource: "https://juportfolio.com/media/img/DijkstraGPS.webp"
+    imgSource: "/media/img/DijkstraGPS.webp"
   },
   4: {
     title: "Forms That Accept STL & GCode Submissions",
     info:
       "This project is by far one of my oldest. It may not look great, but the PHP submissions allowed me to create a 3D print requests that could be used to store data in a SQL Server. I was responsible for the design and implementation of the forms, as well as the integration with the SQL Server. The end result was a user-friendly forms site that made it easy for users to submit and store data.",
-    link: "https://juportfolio.com/PrintManager/RequestPrint.php",
+    link: "/PrintManager/RequestPrint.php",
     github:
       "https://github.com/J-Uptegraph/Web-Interaction-Design-and-Dev/tree/main/MyInterest",
     skills: ["HTML", "CSS", "Javascript", "PHP", "SQL", "Web Development"],
-    imgSource: "https://juportfolio.com/media/img/print_request.webp"
+    imgSource: "/media/img/print_request.webp"
   },
   5: {
     title: "OctoPrint Mobile App with Swift and XCode",
@@ -104,17 +104,17 @@ var modalInfo = {
     link: "#",
     github: "#",
     skills: ["Mobile App Development", "Storyboard", "Swift", "SwiftUI","XCode"],
-    imgSource: "https://juportfolio.com/media/img/Octoprint2.webp"
+    imgSource: "/media/img/Octoprint2.webp"
   },
   6: {
     title: "Custom Javascript Calculator",
     info:
       "I developed a Javascript calculator that was both functional and intuitive. I was responsible for the design and implementation of the calculator, as well as ensuring that it was easy for users to use. The end result was a calculator that made mathematical calculations quick and effortless.",
-    link: "https://juportfolio.com/Calculator%20App/UptegrjwCalculatorApp.html",
+    link: "/Calculator%20App/UptegrjwCalculatorApp.html",
     github:
       "https://github.com/J-Uptegraph/Advanced-Web-App-Development/tree/main/Calculator%20App",
     skills: ["Javascript", "Web Development", "UI/UX Design"],
-    imgSource: "https://juportfolio.com/media/img/calc.webp"
+    imgSource: "/media/img/calc.webp"
   },
   7: {
     title: "10 Mile Solutions: Accessible Website Re-Design",
@@ -123,7 +123,7 @@ var modalInfo = {
     link: "",
     github: "https://codepen.io/JU2tegraph/pen/VwPONaB",
     skills: ["User Research", "UI/UX Design", "Web Accessibility"],
-    imgSource: "https://juportfolio.com/media/img/10MileSolutions.webp"
+    imgSource: "/media/img/10MileSolutions.webp"
   },
   8: {
     title: "UX/UI Research for Graeter's Ice Cream",
@@ -134,7 +134,7 @@ var modalInfo = {
     github:
       "https://www.canva.com/design/DAE_quKAskQ/YcoRLggkCAEKmriM8SOaBA/view?utm_content=DAE_quKAskQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     skills: ["Canva", "Figma", "Prototyping", "UX/UI Research"],
-    imgSource: "https://juportfolio.com/media/img/Graeter's.webp"
+    imgSource: "/media/img/Graeter's.webp"
   },
   9: {
     title: "UX/UI Research for Special Olympics Website",
@@ -143,7 +143,7 @@ var modalInfo = {
     link: "#",
     github: "#",
     skills: ["UX/UI Research", "Web Design", "Persona Creation"],
-    imgSource: "https://juportfolio.com/media/img/SpecialOlympics.webp"
+    imgSource: "/media/img/SpecialOlympics.webp"
   },
   10: {
     title: "Pith: First Person Boss Rush Game UE4",
@@ -153,7 +153,7 @@ var modalInfo = {
       "https://www.canva.com/design/DAFAZzbocp4/y2URPZ-rceCS26A-aIzC5Q/view?utm_content=DAFAZzbocp4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     github: "#",
     skills: ["Game Design", "Unreal Engine 4", "3D Modeling"],
-    imgSource: "https://juportfolio.com/media/img/pith.webp"
+    imgSource: "/media/img/pith.webp"
   },
   11: {
     title: 'NDD and Text Adventure Game Concept "Rapture"',
@@ -163,7 +163,7 @@ var modalInfo = {
       "https://www.canva.com/design/DAE3n5XvLO0/PpEQcUxY-odddKCPI1wuTg/view?utm_content=DAE3n5XvLO0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     github: "#",
     skills: ["Narrative Design", "World-Building", "Character Design"],
-    imgSource: "https://juportfolio.com/media/img/Rapture.webp"
+    imgSource: "/media/img/Rapture.webp"
   },
   12: {
     title: "Train Like a Jedi: 3D Unity Simulator",
@@ -172,7 +172,7 @@ var modalInfo = {
     link: "#",
     github: "#",
     skills: ["Development", "Programming", "User Interface Design"],
-    imgSource: "https://juportfolio.com/media/img/jediTrainingUnity.webp"
+    imgSource: "/media/img/jediTrainingUnity.webp"
   },
   13: {
     title: "Spider-Man 3D Model in Maya",
@@ -181,7 +181,7 @@ var modalInfo = {
     link: "#",
     github: "#",
     skills: ["3D Modeling", "Character Design", "Asset Creation","Animation and Visual Effects"],
-    imgSource: "https://juportfolio.com/media/img/Spider-Man_Model.webp"
+    imgSource: "/media/img/Spider-Man_Model.webp"
   },
   14: {
     title:
@@ -189,10 +189,10 @@ var modalInfo = {
     info:
       "This project was a challenge to bring the beloved Baby Yoda to life with 3D animation. Using Autodesk Maya, I was able to create a photorealistic animation of the Mandalorian helmet and Baby Grogu, which was used in the Disney+ series, The Mandalorian. I was responsible for rigging, animating, and rendering the asset which added realism to the project.",
     link:
-      "https://juportfolio.com/media/videos/Uptegrjw_Final_Render_Mandalorian2.mp4",
+      "/media/videos/Uptegrjw_Final_Render_Mandalorian2.mp4",
     github: "#",
     skills: ["3D Modeling", "3D Animating", "3D Rendering"],
-    imgSource: "https://juportfolio.com/media/img/babyYodaAnimation.webp"
+    imgSource: "/media/img/babyYodaAnimation.webp"
   },
   15: {
     title:
@@ -202,7 +202,7 @@ var modalInfo = {
     link: "#",
     github: "#",
     skills: ["3D Modeling", "Texturing", "Lighting"],
-    imgSource: "https://juportfolio.com/media/img/RazorcrestLandscape.webp"
+    imgSource: "/media/img/RazorcrestLandscape.webp"
   },
   16: {
     title: "Entertainment Design for Avatar Flight of Passage",
@@ -211,7 +211,7 @@ var modalInfo = {
     link: "#",
     github: "#",
     skills: ["Research", "Design", "Prototyping", "Collaboration"],
-    imgSource: "https://juportfolio.com/media/img/avatar.webp"
+    imgSource: "/media/img/avatar.webp"
   },
   17: {
     title: "Cybersecurity Grand Challenge",
@@ -220,7 +220,7 @@ var modalInfo = {
     link: "#",
     github: "#",
     skills: ["Research", "Design", "Prototyping", "Collaboration"],
-    imgSource: "https://juportfolio.com/media/img/grandchallenge.webp"
+    imgSource: "/media/img/grandchallenge.webp"
   },
   18: {
     title: "Data-Driven Marketing Micro-Center",
@@ -229,7 +229,7 @@ var modalInfo = {
     link: "#",
     github: "#",
     skills: ["Research", "Design", "Prototyping", "Collaboration"],
-    imgSource: "https://juportfolio.com/media/img/microcenter.webp"
+    imgSource: "/media/img/microcenter.webp"
   }
 };
 
