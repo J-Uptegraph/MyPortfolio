@@ -4,7 +4,7 @@
 .bgimage {
     height: 100vh;
     width: auto;
-    background-image: url("https://juportfolio.com/media/img/bgimage.webp");
+    background-image: url("/media/img/bgimage.webp");
     background-size: cover;
     position: relative;
     overflow: hidden;
